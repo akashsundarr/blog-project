@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: url('../src/assets/images/backgorund-img.png') no-repeat center center fixed;
+
+
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+  body {
+    overflow: hidden; /* Disables scrolling on the body */
+  }
+  
+  .scrollable-container {
+    overflow: auto; /* Allows scrolling inside this div */
+    max-height: 400px; /* Example height */
+  }
+  

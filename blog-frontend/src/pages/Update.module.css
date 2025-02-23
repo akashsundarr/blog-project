@@ -1,0 +1,74 @@
+.updateContainer {
+    background-color: #1F1C2C;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #928dab;
+    margin-bottom: 15px;
+  }
+  
+  .backBtn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #928dab;
+    margin-bottom: 15px;
+    transition: 0.3s;
+  }
+  
+  .backBtn:hover {
+    color: #7c7994;
+  }
+  
+  .blogForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .label {
+    text-align: left;
+    font-size: 16px;
+    color: #ddd;
+    font-weight: 500;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #928dab;
+    background: #1F1C2C;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .submitBtn {
+    background-color: #928dab;
+    color: #1F1C2C;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submitBtn:hover {
+    background-color: #7c7994;
+  }
+  

@@ -1,0 +1,84 @@
+.blogListContainer {
+    background-color: #1F1C2C;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 20px auto;
+  }
+  
+  .heading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #928dab;
+    text-align: center;
+  }
+  
+  .divider {
+    border: none;
+    height: 1px;
+    background: #928dab;
+    margin: 15px 0;
+  }
+  
+  .createContainer {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .createBtn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #928dab;
+    color: #1F1C2C;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .createBtn:hover {
+    background-color: #7c7994;
+  }
+  
+  .blogList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blogItem {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blogTitle {
+    font-size: 20px;
+    color: #928dab;
+    margin-bottom: 5px;
+  }
+  
+  .blogContent {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .detailsBtn {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #928dab;
+    color: #1F1C2C;
+    transition: 0.3s;
+  }
+  
+  .detailsBtn:hover {
+    background-color: #7c7994;
+  }
+  

@@ -1,0 +1,65 @@
+.blogContainer {
+    background-color: #1F1C2C;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .blogTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #928dab;
+    margin-bottom: 10px;
+  }
+  
+  .blogContent {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd;
+  }
+  
+  .divider {
+    border: none;
+    height: 1px;
+    background: #928dab;
+    margin: 15px 0;
+  }
+  
+  .blogActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .editBtn, .deleteBtn {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .editBtn {
+    background-color: #928dab;
+    color: #1F1C2C;
+    border: none;
+  }
+  
+  .deleteBtn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+  }
+  
+  .editBtn:hover {
+    background-color: #7c7994;
+  }
+  
+  .deleteBtn:hover {
+    background-color: #cc0000;
+  }
+  
